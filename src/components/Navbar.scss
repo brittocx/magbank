@@ -1,0 +1,18 @@
+@import "../variables";
+
+.navbar {
+  background-color: $color-primary;
+  border-bottom: 0.2rem solid $color-secondary;
+
+  a.dropdown-toggle.nav-link {
+    color: #fff;
+  }
+
+  a.dropdown-toggle.nav-link:hover {
+    color: #212529;
+  }
+
+  &__search-group {
+    width: 28rem;
+  }
+}
